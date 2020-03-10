@@ -21,7 +21,6 @@ type alias Model =
     , isGettingOutOfPenaltyBox : Bool
     , wasCorrectlyAnswered : Bool
     , notAWinner : Bool
-    , logs : List String
     }
 
 
@@ -64,7 +63,6 @@ init =
     , isGettingOutOfPenaltyBox = False
     , wasCorrectlyAnswered = False
     , notAWinner = True
-    , logs = []
     }
 
 
